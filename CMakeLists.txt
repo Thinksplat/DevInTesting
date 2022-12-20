@@ -36,4 +36,5 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 add_subdirectory(src/tests)
+add_subdirectory(src/tests_independent)
 endif()
